@@ -1,0 +1,31 @@
+odrv0.axis0.motor.config.current_lim = 5
+odrv0.axis0.controller.config.vel_limit = 5
+odrv0.axis0.motor.config.calibration_current =3
+odrv0.axis0.motor.config.pole_pairs = 20
+odrv0.axis0.motor.config.torque_constant = 0.02756
+odrv0.axis0.motor.config.motor_type = MOTOR_TYPE_HIGH_CURRENT
+odrv0.axis0.encoder.config.cpr = 4000 for as5047p or 16384 for tle
+odrv0.save_configuration()
+
+odrv0.axis1.motor.config.current_lim = 5
+odrv0.axis1.controller.config.vel_limit = 5
+odrv0.axis1.motor.config.calibration_current =3
+odrv0.axis1.motor.config.pole_pairs = 20
+odrv0.axis1.motor.config.torque_constant = 0.02756
+odrv0.axis1.motor.config.motor_type = MOTOR_TYPE_HIGH_CURRENT
+odrv0.axis1.encoder.config.cpr = 4000
+odrv0.save_configuration()
+
+axis0 1:9
+axis1 1:13.5
+
+odrv0.axis0.controller.config.vel_gain=0.08
+
+odrv0.axis0.requested_state = AXIS_STATE_FULL_CALIBRATION_SEQUENCE
+odrv0.axis1.requested_state = AXIS_STATE_FULL_CALIBRATION_SEQUENCE
+
+odrv0.axis0.requested_state = AXIS_STATE_CLOSED_LOOP_CONTROL
+odrv0.axis1.requested_state = AXIS_STATE_CLOSED_LOOP_CONTROL
+
+odrv0.axis0.controller.input_pos
+odrv0.axis1.controller.input_pos

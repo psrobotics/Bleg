@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<robot name="leg_2dof" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find leg_2dof_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find leg_2dof_description)/urdf/leg_2dof.trans" />
+<xacro:include filename="$(find leg_2dof_description)/urdf/leg_2dof.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin rpy="0 0 0" xyz="0.01847363511409934 -0.0018126507265820422 -0.003895162121934141"/>
+    <mass value="0.600713971327182"/>
+    <inertia ixx="0.00119" ixy="-7.2e-05" ixz="-0.000503" iyy="0.002778" iyz="9.4e-05" izz="0.002032"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="package://leg_2dof_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="package://leg_2dof_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+</robot>

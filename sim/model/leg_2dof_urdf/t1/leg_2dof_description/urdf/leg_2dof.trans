@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<robot name="leg_2dof" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+</robot>
