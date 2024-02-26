@@ -25,10 +25,10 @@ Open-source, low cost quadrued leg design with BLDC actuator.
 
 
 ### Reducer
-<img src="pic\20201128_005259.jpg" width="480" />
+<img src="pic\20201128_005259.jpg" width="550" />
 
 ### Encoder
-<img src="pic\20210131_233606.jpg" width="480" />
+<img src="pic\20210131_233606.jpg" width="550" />
 
 ### Motor
 <img src="pic\20210223_162048.jpg" width="480" />
