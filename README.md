@@ -1,6 +1,6 @@
 # Bleg
 
-Open-source, low cost quadrued leg design with BLDC actuator.
+Open-source, low cost quadruped leg design with BLDC actuator.
 
 <img src="pic\P1050714.gif" alt="Bleg action 1" style="zoom:50%;" />
 
